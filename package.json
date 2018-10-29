@@ -1,0 +1,24 @@
+{
+  "homepage": "https://gretagr.github.io/MyReadsApp/",
+  "dependencies": {
+    "escape-string-regexp": "^1.0.5",
+    "gh-pages": "^1.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-loading-screen": "0.0.17",
+    "react-router-dom": "^4.3.1",
+    "sort-by": "^1.2.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  }
+}
